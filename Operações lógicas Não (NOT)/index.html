@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+</body>
+  <script>
+      //Operador Lógico NÃO (NOT = !) 
+
+    let SpaceShip = "elemental"
+    let Velocity = 20
+
+    console.log(!(Velocity > 19))
+    // NÂO V = F (Inverte o valor de Verdadeiro para Falso)
+
+    console.log(!(SpaceShip == "Golias"))
+    // NÃO F = V (Inverte o valor de FALSO para Verdadeiro)
+
+
+    //   RESOLUÇÃO EXERCICIOS
+  
+  console.log(!(Velocity > 25 && SpaceShip == "elemental") || (Velocity - 3 == 17 && SpaceShip.length + 1 > 15)) // IR RESOLVENDO POR PARTES
+
+    // (!(Velocity > 25 && SpaceShip == "elemental") || (17 == 17 && 10 > 15))
+      // (!( F && V ") || ( V  && F )
+        // (!F || F)
+          // (V || F)
+           // = V
+
+
+
+
+
+  </script>
+
+</html>
